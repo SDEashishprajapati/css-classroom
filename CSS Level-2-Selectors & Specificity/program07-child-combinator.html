@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Child Selector</title>
+    <style>
+        .container > p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Yeh direct child hai - style lagega</p>
+        <div>
+            <p>Yeh nested child hai - style nahi lagega</p>
+        </div>
+    </div>
+</body>
+</html>
