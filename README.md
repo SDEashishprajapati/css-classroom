@@ -27,8 +27,6 @@ This section includes all practice programs for fundamental CSS concepts:
 
 ---
 
-.
-
 ## 📝 CSS Level 2 – Selectors & Specificity
 This section includes all practice programs focused on CSS selectors, pseudo classes/elements, and specificity:
 
@@ -45,9 +43,21 @@ This section includes all practice programs focused on CSS selectors, pseudo cla
 ## program12-important.html
 ## program13-inheritance.html
 
-
-
 ---
+
+## 📝 CSS Level 3 – Box Model & Element Sizing
+
+This section includes all programs focused on box model, spacing, and element sizing:
+
+## program01-box-model.html  
+## program02-height-width.html  
+## program03-border.html  
+## program04-border-radius.html  
+## program05-padding.html  
+## program06-margin.html  
+## program07-display.html  
+## program08-relative-units.html  
+## program09-em-rem.html  
 
 ## 💻 Tools Used
 
