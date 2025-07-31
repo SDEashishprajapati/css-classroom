@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Box Model</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+      padding: 1rem;
+      background: #f0f4f8;
+    }
+    .box-model {
+      background: #e0f7fa;
+      padding: 20px; /* inner space */
+      border: 5px solid #00796b;
+      margin: 30px; /* outer space */
+      width: 300px;
+    }
+    .inner {
+      background: #b2ebf2;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Box Model</h1>
+  <p>Content + Padding + Border + Margin</p>
+  <div class="box-model">
+    <div class="inner">
+      Inner content
+    </div>
+  </div>
+</body>
+</html>

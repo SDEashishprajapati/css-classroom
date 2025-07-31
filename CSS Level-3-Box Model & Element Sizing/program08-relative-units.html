@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Relative Units (Percentage)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+      padding: 1rem;
+      background: #e1f5fe;
+    }
+    .container {
+      background: #b3e5fc;
+      padding: 10px;
+      width: 80%; /* relative width */
+      border: 1px solid #0288d1;
+      margin-top: 1rem;
+    }
+    .child {
+      background: #03a9f4;
+      width: 50%; /* 50% of parent container */
+      padding: 10px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Relative Units (Percentage)</h1>
+  <div class="container">
+    <div class="child">50% width of parent</div>
+  </div>
+</body>
+</html>

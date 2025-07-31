@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>em vs rem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    :root {
+      font-size: 16px; /* rem base */
+    }
+    body {
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+      padding: 1rem;
+      background: #fffde7;
+    }
+    .em-box {
+      background: #ffe082;
+      padding: 1.5em; /* relative to its own font-size */
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    .rem-box {
+      background: #ffd54f;
+      padding: 1.5rem; /* relative to root (16px) */
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>em vs rem</h1>
+  <div class="em-box">
+    Padding using <code>em</code>
+  </div>
+  <div class="rem-box">
+    Padding using <code>rem</code>
+  </div>
+  <p><strong>Note:</strong> <code>em</code> is relative to the element’s font-size; <code>rem</code> is relative to root.</p>
+</body>
+</html>

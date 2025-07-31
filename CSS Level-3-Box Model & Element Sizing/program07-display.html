@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Display Property</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+      padding: 1rem;
+      background: #f3e5f5;
+    }
+    .display-block {
+      background: #c5cae9;
+      padding: 10px;
+      margin-bottom: 6px;
+      display: block;
+    }
+    .display-inline {
+      background: #f8bbd0;
+      padding: 10px;
+      display: inline;
+      margin-right: 6px;
+    }
+    .display-inline-block {
+      background: #b39ddb;
+      padding: 10px;
+      display: inline-block;
+      width: 140px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Display Property</h1>
+  <div class="display-block">Block element (full width)</div>
+  <span class="display-inline">Inline element</span>
+  <div class="display-inline-block">Inline-block element</div>
+  <p>Block starts on new line; inline flows; inline-block accepts width/height.</p>
+</body>
+</html>
