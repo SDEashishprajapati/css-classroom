@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Sizing</title>
+  <style>
+    .sizing {
+      display: flex;
+      gap: 5px;
+      padding:5px;
+    }
+    .sizing > div {
+      background: lightseagreen;
+      padding: 15px;
+      color: white;
+      font-weight:bold;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flex Sizing</h1>
+  <div class="sizing">
+    <div style="flex:1;">A</div>
+    <div style="flex:2;">B</div>
+    <div style="flex:1;">C</div>
+  </div>
+</body>
+</html>

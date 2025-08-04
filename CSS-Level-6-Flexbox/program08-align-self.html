@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Align Self</title>
+  <style>
+    .align-self {
+      display: flex;
+      height: 120px;
+      gap: 5px;
+      background: #eee;
+      padding:5px;
+    }
+    .align-self > div {
+      background: #b2d;
+      padding: 10px;
+      flex:1;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Align Self</h1>
+  <div class="align-self">
+    <div>Default</div>
+    <div style="align-self: center;">Center</div>
+    <div style="align-self: flex-start;">Start</div>
+  </div>
+</body>
+</html>

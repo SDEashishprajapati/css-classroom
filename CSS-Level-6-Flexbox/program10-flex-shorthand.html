@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Shorthand</title>
+  <style>
+    .shorthand {
+      display: flex;
+      gap: 8px;
+      border:1px solid #444;
+      padding:5px;
+    }
+    .shorthand > div {
+      background: #f9c;
+      padding: 20px;
+      text-align:center;
+      color:#333;
+    }
+  </style>
+
+  
+</head>
+<body>
+  <h1>Flex Shorthand</h1>
+  <div class="shorthand">
+    <div style="flex:2 1 150px;">A</div>
+    <div style="flex:1 1 100px;">B</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Wrap</title>
+  <style>
+    .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      width: 250px;
+      border: 1px dashed #666;
+      padding:5px;
+    }
+    .wrap > div {
+      flex: 0 0 100px;
+      background: peachpuff;
+      padding: 8px;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flex Wrap</h1>
+  <div class="wrap">
+    <div>Item</div><div>Item</div><div>Item</div><div>Item</div>
+  </div>
+</body>
+</html>
