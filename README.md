@@ -91,7 +91,25 @@ This section includes all practice programs focused on CSS Flexbox layout, align
 ## program09-flex-sizing.html
 ## program10-flex-shorthand.html
 
+---
 
+## 📝 CSS Level 6 – Grid & Animation
+
+This section includes all programs focused on the CSS Grid layout system, shorthand properties, and basic animations:
+
+## program01-grid-model.html  
+## program02-grid-template-rows-columns.html  
+## program03-grid-template-repeat.html  
+## program04-grid-gaps.html  
+## program05-grid-column.html  
+## program06-grid-row.html  
+## program07-grid-shorthand.html  
+## program08-animation.html  
+## program09-percentage-animation.html  
+## program10-media-query.html  
+## program11-z-index.html
+
+---
 
 ## 💻 Tools Used
 
