@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Row Example</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      grid-template-rows: repeat(3, 100px);  /* 3 rows of 100px each */
+      gap: 10px;
+      padding: 20px;
+      background-color: #eee;
+    }
+
+    .grid-item {
+      background-color: #2196F3;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+
+    /* This item spans 2 rows vertically */
+    .item2 {
+      grid-row: 1 / 3; /* from row line 1 to row line 3 */
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Grid Row Property</h2>
+
+  <div class="grid-container">
+    <div class="grid-item">Item 1</div>
+    <div class="grid-item item2">Item 2 (spans 2 rows)</div>
+    <div class="grid-item">Item 3</div>
+    <div class="grid-item">Item 4</div>
+    <div class="grid-item">Item 5</div>
+  </div>
+
+</body>
+</html>

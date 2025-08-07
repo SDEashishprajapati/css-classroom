@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .ball {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 50%;
+        margin: 100px auto;
+        background-color: yellowgreen;
+        animation: bounce 1s ease-in-out 0s infinite alternate none running;
+    }
+    @keyframes bounce {
+        0% {transform: translateY(0);}
+            
+          50% {transform: translateY(-100px);} 
+            
+           100% { transform: translateY(0);}
+        }
+
+      
+</style>
+<body>
+    <h2>Percentage in Animation</h2>
+    <div class="ball"></div>
+    
+</body>
+</html>
